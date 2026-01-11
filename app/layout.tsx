@@ -20,16 +20,21 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://REPLACE_AFTER_VERCE
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: "Oraciones por la familia - Oraciones para bendecir el hogar y la familia",
-  description: "Oraciones originales para bendecir el hogar, pedir unidad y reconciliación, y confiar la familia a Dios cada día.",
-  keywords: ["oraciones por la familia", "oraciones católicas", "unidad familiar", "bendición del hogar", "reconciliación familiar"],
+  title: "Oraciones por los hijos - Oraciones para encomendar a los hijos a Dios",
+  description: "Oraciones originales para encomendar a los hijos a Dios, pedir protección, guía y paz en cada etapa de su vida.",
+  keywords: ["oraciones por los hijos", "oraciones por mis hijos", "oraciones católicas", "protección para hijos", "bendición para hijos"],
   openGraph: {
-    title: "Oraciones por la familia",
-    description: "Oraciones originales para bendecir el hogar, pedir unidad y reconciliación, y confiar la familia a Dios cada día.",
+    title: "Oraciones por los hijos",
+    description: "Oraciones originales para encomendar a los hijos a Dios, pedir protección, guía y paz en cada etapa de su vida.",
     url: baseUrl,
-    siteName: "Oraciones por la familia",
+    siteName: "Oraciones por los hijos",
     locale: "es_ES",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Oraciones por los hijos",
+    description: "Oraciones originales para encomendar a los hijos a Dios, pedir protección, guía y paz en cada etapa de su vida.",
   },
 };
 

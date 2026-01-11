@@ -64,10 +64,10 @@ export default function HomeClient({ allPages }: HomeClientProps) {
     <div className="min-h-screen">
       {/* Hero Section */}
       <Hero
-        title="Oraciones por la familia"
-        subtitle="Oraciones originales para bendecir el hogar, pedir unidad y reconciliación, y confiar la familia a Dios cada día"
+        title="Oraciones por los hijos"
+        subtitle="Oraciones originales para encomendar a los hijos a Dios, pedir protección, guía y paz en cada etapa de su vida"
         ctaText="Comenzar a orar"
-        ctaHref={primaryPrayer ? `/${primaryPrayer.slug}` : '/oraciones-por-la-familia'}
+        ctaHref={primaryPrayer ? `/${primaryPrayer.slug}` : '/oraciones-por-los-hijos'}
       />
 
       {/* Main Content */}
@@ -80,7 +80,7 @@ export default function HomeClient({ allPages }: HomeClientProps) {
                 Comienza aquí
               </h2>
               <p className="text-[var(--muted)]">
-                Las oraciones esenciales para bendecir y proteger a tu familia
+                Las oraciones esenciales para encomendar a tus hijos a Dios
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -99,7 +99,7 @@ export default function HomeClient({ allPages }: HomeClientProps) {
                 Destacadas
               </h2>
               <p className="text-[var(--muted)]">
-                Oraciones poderosas para la unidad, reconciliación y paz en el hogar
+                Oraciones poderosas para protección, salud y guía de tus hijos
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

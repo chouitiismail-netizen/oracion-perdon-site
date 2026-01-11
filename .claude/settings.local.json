@@ -11,7 +11,10 @@
       "Bash(node scripts/generate-pages.js:*)",
       "Bash(set NODE_OPTIONS=--no-deprecation)",
       "Bash(del:*)",
-      "Bash(set NEXT_PRIVATE_SKIP_TURBOPACK=1)"
+      "Bash(set NEXT_PRIVATE_SKIP_TURBOPACK=1)",
+      "Bash(node scripts/generate-hijos-content.js:*)",
+      "Bash(curl:*)",
+      "Bash(node:*)"
     ]
   }
 }
