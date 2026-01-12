@@ -20,21 +20,21 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://REPLACE_AFTER_VERCE
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: "Oraciones de agradecimiento - Cultiva un corazón agradecido con Dios",
-  description: "Oraciones originales para dar gracias a Dios por la vida, la familia y las bendiciones; para cultivar un corazón agradecido cada día, incluso en tiempos difíciles.",
-  keywords: ["oraciones de agradecimiento", "oración para dar gracias a Dios", "oración de gratitud diaria", "oraciones de agradecimiento por la vida", "corazón agradecido"],
+  title: "Oraciones para la tristeza - Consuelo, esperanza y paz para el corazón cansado",
+  description: "Oraciones y reflexiones para el desánimo, las lágrimas y el corazón cansado; para recibir consuelo, esperanza y una paz que sostiene.",
+  keywords: ["oraciones para la tristeza", "oración para el desánimo", "oración cuando estoy triste", "oraciones por consuelo", "oraciones para el corazón roto"],
   openGraph: {
-    title: "Oraciones de agradecimiento",
-    description: "Oraciones originales para dar gracias a Dios por la vida, la familia y las bendiciones; para cultivar un corazón agradecido cada día, incluso en tiempos difíciles.",
+    title: "Oraciones para la tristeza",
+    description: "Oraciones y reflexiones para el desánimo, las lágrimas y el corazón cansado; para recibir consuelo, esperanza y una paz que sostiene.",
     url: baseUrl,
-    siteName: "Oraciones de agradecimiento",
+    siteName: "Oraciones para la tristeza",
     locale: "es_ES",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Oraciones de agradecimiento",
-    description: "Oraciones originales para dar gracias a Dios por la vida, la familia y las bendiciones; para cultivar un corazón agradecido cada día, incluso en tiempos difíciles.",
+    title: "Oraciones para la tristeza",
+    description: "Oraciones y reflexiones para el desánimo, las lágrimas y el corazón cansado; para recibir consuelo, esperanza y una paz que sostiene.",
   },
 };
 

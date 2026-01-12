@@ -1,25 +1,25 @@
 // Curated content configuration for homepage sections
 
 export const START_HERE_SLUGS = [
-  'oraciones-de-agradecimiento',
-  'oracion-de-agradecimiento',
-  'oracion-para-dar-gracias-a-dios',
-  'oracion-de-gratitud-diaria',
-  'oracion-de-agradecimiento-por-la-vida',
-  'oracion-de-agradecimiento-por-la-familia',
+  'oraciones-para-la-tristeza',
+  'oracion-para-la-tristeza',
+  'oracion-para-el-desanimo',
+  'oracion-cuando-estoy-triste',
+  'oracion-por-consuelo',
+  'oracion-para-encontrar-esperanza',
 ];
 
 export const FEATURED_SLUGS = [
-  'oracion-de-agradecimiento-por-el-trabajo',
-  'oracion-de-agradecimiento-por-un-nuevo-dia',
-  'oracion-de-agradecimiento-por-bendiciones',
-  'oracion-para-agradecer-aun-en-dificultad',
-  'oracion-de-agradecimiento-por-salud',
-  'oracion-de-agradecimiento-por-proteccion',
+  'oracion-para-sanar-el-alma',
+  'oracion-para-el-corazon-roto',
+  'oracion-cuando-me-siento-vacio',
+  'oracion-cuando-me-siento-solo',
+  'oracion-para-llorar-con-fe',
+  'oracion-para-calmar-el-dolor',
 ];
 
 // Primary prayer for main CTA
-export const PRIMARY_PRAYER_SLUG = 'oraciones-de-agradecimiento';
+export const PRIMARY_PRAYER_SLUG = 'oraciones-para-la-tristeza';
 
 // Quick action categories with icons and slugs
 export interface QuickAction {
@@ -30,20 +30,20 @@ export interface QuickAction {
 }
 
 export const QUICK_ACTIONS: QuickAction[] = [
-  { id: 'vida', label: 'Por la vida', icon: 'gratitude', slug: 'oracion-de-agradecimiento-por-la-vida' },
-  { id: 'familia', label: 'Por la familia', icon: 'family', slug: 'oracion-de-agradecimiento-por-la-familia' },
-  { id: 'bendiciones', label: 'Bendiciones', icon: 'trust', slug: 'oracion-de-agradecimiento-por-bendiciones' },
-  { id: 'provision', label: 'Provisión', icon: 'protection', slug: 'oracion-de-agradecimiento-por-provision' },
-  { id: 'dificultad', label: 'En dificultad', icon: 'anxiety', slug: 'oracion-para-agradecer-aun-en-dificultad' },
+  { id: 'consuelo', label: 'Consuelo', icon: 'gratitude', slug: 'oracion-por-consuelo' },
+  { id: 'esperanza', label: 'Esperanza', icon: 'trust', slug: 'oracion-para-encontrar-esperanza' },
+  { id: 'desanimo', label: 'Desánimo', icon: 'anxiety', slug: 'oracion-para-el-desanimo' },
+  { id: 'soledad', label: 'Soledad', icon: 'family', slug: 'oracion-cuando-me-siento-solo' },
+  { id: 'animo', label: 'Levantar ánimo', icon: 'protection', slug: 'oracion-para-levantar-el-animo' },
 ];
 
 // Daily verse for spiritual inspiration
 export const DAILY_VERSES = [
-  { text: 'Dad gracias en todo, porque esta es la voluntad de Dios para con vosotros en Cristo Jesús.', reference: '1 Tesalonicenses 5:18' },
-  { text: 'Entrad por sus puertas con acción de gracias, por sus atrios con alabanza; alabadle, bendecid su nombre.', reference: 'Salmo 100:4' },
-  { text: 'Alabad al Señor, porque él es bueno; porque para siempre es su misericordia.', reference: 'Salmo 107:1' },
-  { text: 'Todo lo que respira alabe al Señor. Aleluya.', reference: 'Salmo 150:6' },
-  { text: 'Por tanto, ofrezcamos siempre a Dios, por medio de él, sacrificio de alabanza, es decir, fruto de labios que confiesan su nombre.', reference: 'Hebreos 13:15' },
+  { text: 'El Señor está cerca de los quebrantados de corazón, y salva a los de espíritu abatido.', reference: 'Salmo 34:18' },
+  { text: 'Venid a mí todos los que estáis trabajados y cargados, y yo os haré descansar.', reference: 'Mateo 11:28' },
+  { text: 'Él sana a los quebrantados de corazón y venda sus heridas.', reference: 'Salmo 147:3' },
+  { text: 'No temas, porque yo estoy contigo; no desmayes, porque yo soy tu Dios.', reference: 'Isaías 41:10' },
+  { text: 'Jehová es mi pastor; nada me faltará. En lugares de delicados pastos me hará descansar.', reference: 'Salmo 23:1-2' },
 ];
 
 export function getDailyVerse() {

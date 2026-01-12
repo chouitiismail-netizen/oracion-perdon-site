@@ -4,10 +4,10 @@ export default function BrandBlock() {
   return (
     <Link href="/" className="flex flex-col group" aria-label="Ir a la página principal">
       <span className="text-base md:text-lg font-bold text-[var(--foreground)] font-[var(--font-serif)] group-hover:text-[var(--accent)] transition-colors">
-        Oraciones de agradecimiento
+        Oraciones para la tristeza
       </span>
       <span className="text-xs text-[var(--muted)] group-hover:text-[var(--foreground)] transition-colors">
-        Cultiva un corazón agradecido
+        Consuelo y esperanza en Dios
       </span>
     </Link>
   );
