@@ -37,7 +37,7 @@ export async function generateMetadata({
             title: page.metaTitle || page.title,
             description: page.metaDescription,
             url: `${baseUrl}/${slug}`,
-            siteName: "Oraciones para la paz interior",
+            siteName: "Oraciones de agradecimiento",
             locale: "es_ES",
             type: "article",
         },

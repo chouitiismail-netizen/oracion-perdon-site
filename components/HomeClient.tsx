@@ -64,10 +64,10 @@ export default function HomeClient({ allPages }: HomeClientProps) {
     <div className="min-h-screen">
       {/* Hero Section */}
       <Hero
-        title="Oraciones para la paz interior"
-        subtitle="Oraciones y reflexiones originales para calmar la mente, encontrar serenidad interior y descansar el corazón en Dios"
-        ctaText="Comenzar a orar"
-        ctaHref={primaryPrayer ? `/${primaryPrayer.slug}` : '/oraciones-para-la-paz-interior'}
+        title="Oraciones de agradecimiento"
+        subtitle="Oraciones originales para dar gracias a Dios por la vida, la familia y las bendiciones; para cultivar un corazón agradecido cada día, incluso en tiempos difíciles"
+        ctaText="Comenzar a agradecer"
+        ctaHref={primaryPrayer ? `/${primaryPrayer.slug}` : '/oraciones-de-agradecimiento'}
       />
 
       {/* Main Content */}
@@ -77,10 +77,10 @@ export default function HomeClient({ allPages }: HomeClientProps) {
           <section>
             <div className="mb-8">
               <h2 className="text-2xl md:text-3xl font-bold text-[var(--foreground)] mb-2">
-                Encuentra paz interior
+                Comienza aquí
               </h2>
               <p className="text-[var(--muted)]">
-                Oraciones esenciales para calmar la mente y descansar en Dios
+                Oraciones esenciales para cultivar un corazón agradecido
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -99,7 +99,7 @@ export default function HomeClient({ allPages }: HomeClientProps) {
                 Oraciones destacadas
               </h2>
               <p className="text-[var(--muted)]">
-                Profundiza en la serenidad, el silencio y el descanso espiritual
+                Profundiza en la gratitud por la salud, el trabajo y la provisión divina
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
