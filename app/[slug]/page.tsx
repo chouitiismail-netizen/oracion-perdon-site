@@ -37,7 +37,7 @@ export async function generateMetadata({
             title: page.metaTitle || page.title,
             description: page.metaDescription,
             url: `${baseUrl}/${slug}`,
-            siteName: "Oraciones para la tristeza",
+            siteName: "Oraciones por el perdón",
             locale: "es_ES",
             type: "article",
         },
@@ -98,7 +98,7 @@ export default async function ArticlePage({
                 {!isLegal && (
                     <div className="bg-[var(--accent)]/5 border border-[var(--accent)]/20 rounded-xl p-4">
                         <p className="text-xs text-[var(--muted)] leading-relaxed">
-                            <strong className="text-[var(--foreground)]">Nota:</strong> Contenido espiritual. No sustituye ayuda profesional.
+                            <strong className="text-[var(--foreground)]">Nota:</strong> Contenido espiritual. No sustituye asesoramiento profesional.
                         </p>
                     </div>
                 )}

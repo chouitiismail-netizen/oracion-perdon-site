@@ -1,25 +1,25 @@
 // Curated content configuration for homepage sections
 
 export const START_HERE_SLUGS = [
-  'oraciones-para-la-tristeza',
-  'oracion-para-la-tristeza',
-  'oracion-para-el-desanimo',
-  'oracion-cuando-estoy-triste',
-  'oracion-por-consuelo',
-  'oracion-para-encontrar-esperanza',
+  'oraciones-por-el-perdon',
+  'oracion-para-pedir-perdon-a-dios',
+  'oracion-para-perdonar-a-alguien',
+  'oracion-para-perdonarme-a-mi-mismo',
+  'oracion-por-la-culpa',
+  'oracion-para-sanar-el-corazon-herido',
 ];
 
 export const FEATURED_SLUGS = [
-  'oracion-para-sanar-el-alma',
-  'oracion-para-el-corazon-roto',
-  'oracion-cuando-me-siento-vacio',
-  'oracion-cuando-me-siento-solo',
-  'oracion-para-llorar-con-fe',
-  'oracion-para-calmar-el-dolor',
+  'oracion-para-soltar-el-rencor',
+  'oracion-para-reconciliacion-familiar',
+  'oracion-para-pedir-disculpas',
+  'oracion-para-empezar-de-nuevo',
+  'oracion-por-misericordia',
+  'oracion-para-restaurar-la-paz-interior',
 ];
 
 // Primary prayer for main CTA
-export const PRIMARY_PRAYER_SLUG = 'oraciones-para-la-tristeza';
+export const PRIMARY_PRAYER_SLUG = 'oraciones-por-el-perdon';
 
 // Quick action categories with icons and slugs
 export interface QuickAction {
@@ -30,20 +30,20 @@ export interface QuickAction {
 }
 
 export const QUICK_ACTIONS: QuickAction[] = [
-  { id: 'consuelo', label: 'Consuelo', icon: 'gratitude', slug: 'oracion-por-consuelo' },
-  { id: 'esperanza', label: 'Esperanza', icon: 'trust', slug: 'oracion-para-encontrar-esperanza' },
-  { id: 'desanimo', label: 'Desánimo', icon: 'anxiety', slug: 'oracion-para-el-desanimo' },
-  { id: 'soledad', label: 'Soledad', icon: 'family', slug: 'oracion-cuando-me-siento-solo' },
-  { id: 'animo', label: 'Levantar ánimo', icon: 'protection', slug: 'oracion-para-levantar-el-animo' },
+  { id: 'pedir-perdon', label: 'Pedir perdón', icon: 'gratitude', slug: 'oracion-para-pedir-perdon-a-dios' },
+  { id: 'perdonar', label: 'Perdonar', icon: 'trust', slug: 'oracion-para-perdonar-a-alguien' },
+  { id: 'culpa', label: 'Culpa', icon: 'anxiety', slug: 'oracion-por-la-culpa' },
+  { id: 'reconciliacion', label: 'Reconciliación', icon: 'family', slug: 'oracion-para-reconciliacion-familiar' },
+  { id: 'paz', label: 'Paz interior', icon: 'protection', slug: 'oracion-para-restaurar-la-paz-interior' },
 ];
 
 // Daily verse for spiritual inspiration
 export const DAILY_VERSES = [
-  { text: 'El Señor está cerca de los quebrantados de corazón, y salva a los de espíritu abatido.', reference: 'Salmo 34:18' },
-  { text: 'Venid a mí todos los que estáis trabajados y cargados, y yo os haré descansar.', reference: 'Mateo 11:28' },
-  { text: 'Él sana a los quebrantados de corazón y venda sus heridas.', reference: 'Salmo 147:3' },
-  { text: 'No temas, porque yo estoy contigo; no desmayes, porque yo soy tu Dios.', reference: 'Isaías 41:10' },
-  { text: 'Jehová es mi pastor; nada me faltará. En lugares de delicados pastos me hará descansar.', reference: 'Salmo 23:1-2' },
+  { text: 'Si confesamos nuestros pecados, él es fiel y justo para perdonar nuestros pecados y limpiarnos de toda maldad.', reference: '1 Juan 1:9' },
+  { text: 'Porque si perdonáis a los hombres sus ofensas, os perdonará también a vosotros vuestro Padre celestial.', reference: 'Mateo 6:14' },
+  { text: 'Antes sed benignos unos con otros, misericordiosos, perdonándoos unos a otros, como Dios también os perdonó a vosotros en Cristo.', reference: 'Efesios 4:32' },
+  { text: 'Cuanto está lejos el oriente del occidente, hizo alejar de nosotros nuestras rebeliones.', reference: 'Salmo 103:12' },
+  { text: 'El que encubre sus pecados no prosperará; mas el que los confiesa y se aparta alcanzará misericordia.', reference: 'Proverbios 28:13' },
 ];
 
 export function getDailyVerse() {

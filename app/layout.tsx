@@ -20,21 +20,21 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://REPLACE_AFTER_VERCE
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
-  title: "Oraciones para la tristeza - Consuelo, esperanza y paz para el corazón cansado",
-  description: "Oraciones y reflexiones para el desánimo, las lágrimas y el corazón cansado; para recibir consuelo, esperanza y una paz que sostiene.",
-  keywords: ["oraciones para la tristeza", "oración para el desánimo", "oración cuando estoy triste", "oraciones por consuelo", "oraciones para el corazón roto"],
+  title: "Oraciones por el perdón - Paz, reconciliación y misericordia divina",
+  description: "Oraciones y reflexiones para pedir perdón, perdonar de corazón y volver a empezar con paz y misericordia.",
+  keywords: ["oraciones por el perdón", "oración para pedir perdón", "oración para perdonar", "reconciliación", "misericordia de Dios"],
   openGraph: {
-    title: "Oraciones para la tristeza",
-    description: "Oraciones y reflexiones para el desánimo, las lágrimas y el corazón cansado; para recibir consuelo, esperanza y una paz que sostiene.",
+    title: "Oraciones por el perdón",
+    description: "Oraciones y reflexiones para pedir perdón, perdonar de corazón y volver a empezar con paz y misericordia.",
     url: baseUrl,
-    siteName: "Oraciones para la tristeza",
+    siteName: "Oraciones por el perdón",
     locale: "es_ES",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Oraciones para la tristeza",
-    description: "Oraciones y reflexiones para el desánimo, las lágrimas y el corazón cansado; para recibir consuelo, esperanza y una paz que sostiene.",
+    title: "Oraciones por el perdón",
+    description: "Oraciones y reflexiones para pedir perdón, perdonar de corazón y volver a empezar con paz y misericordia.",
   },
 };
 
