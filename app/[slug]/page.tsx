@@ -4,12 +4,14 @@ import type { Metadata } from 'next';
 import { getAllPages, getPageBySlug, getRelatedSpiritualPages } from '../../lib/content';
 import Container from '../../components/ui/Container';
 import Card from '../../components/ui/Card';
+import SchemaScript from '../../components/SchemaScript';
+import { generateArticlePageSchemas, generateLegalPageSchemas } from '../../lib/schema';
 
 export async function generateStaticParams() {
     return getAllPages().map((p) => ({ slug: p.slug }));
 }
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://REPLACE_AFTER_VERCEL.vercel.app";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://oracion-perdon-site.vercel.app";
 
 export async function generateMetadata({
     params,
@@ -41,6 +43,11 @@ export async function generateMetadata({
             locale: "es_ES",
             type: "article",
         },
+        twitter: {
+            card: "summary",
+            title: page.metaTitle || page.title,
+            description: page.metaDescription,
+        },
     };
 }
 
@@ -62,7 +69,21 @@ export default async function ArticlePage({
     // Parse content sections
     const sections = parseContent(page.content);
 
+    // Generate structured data schemas
+    const schemas = isLegal
+        ? generateLegalPageSchemas(page.title, page.metaDescription, slug)
+        : generateArticlePageSchemas({
+            title: page.title,
+            description: page.metaDescription,
+            slug,
+            publishedAt: page.publishedAt,
+            updatedAt: page.updatedAt,
+            keywords: page.keywords,
+        }, page.category);
+
     return (
+        <>
+        <SchemaScript schemas={schemas} />
         <div className="min-h-screen pb-8">
             <Container maxWidth="md" className="pt-6 space-y-6">
                 {/* Breadcrumb - only for spiritual pages */}
@@ -159,6 +180,7 @@ export default async function ArticlePage({
                 </div>
             </Container>
         </div>
+        </>
     );
 }
 

@@ -1,0 +1,18 @@
+{
+  "name": "Oraciones por el perdón",
+  "short_name": "Perdón",
+  "description": "Oraciones y reflexiones para pedir perdón, perdonar de corazón y volver a empezar con paz y misericordia.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf5ff",
+  "theme_color": "#7c3aed",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

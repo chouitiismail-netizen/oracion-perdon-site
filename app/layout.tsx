@@ -16,7 +16,7 @@ const inter = Inter({
   weight: ["400", "500", "600"],
 });
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://REPLACE_AFTER_VERCEL.vercel.app";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://oracion-perdon-site.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
